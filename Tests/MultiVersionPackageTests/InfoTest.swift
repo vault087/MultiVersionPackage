@@ -3,6 +3,6 @@ import XCTest
 
 class InfoTest: XCTestCase {
     func testVersion() {
-        XCTAssertEqual("1.1.0", Info.version)
+        XCTAssertEqual("2.0.0", Info.version)
     }
 }
