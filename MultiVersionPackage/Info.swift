@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Info {
-    public static let version = "1.1.0"
+    public static let version = "1.1.1"
 
     public static func package() -> String {
         "MultiVersionPackage \(version)"
