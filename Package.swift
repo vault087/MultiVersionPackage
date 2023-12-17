@@ -21,7 +21,9 @@ let package = Package(
             dependencies: [],
             path: "MultiVersionPackage",
             exclude: [],
-            resources: [.process("Resources")]
+            resources: [
+                .process("Resources"),
+            ]
         ),
         .testTarget(name: "MultiVersionPackageTests", dependencies: ["MultiVersionPackage"])
     ]
